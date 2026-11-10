@@ -1,0 +1,3 @@
+import type {Prediction} from '../types/vision';
+export async function request<T>(url:string,init?:RequestInit):Promise<T>{const response=await fetch(url,init);const value=await response.json();if(!response.ok)throw new Error(typeof value.detail==='string'?value.detail:JSON.stringify(value.detail));return value}
+export function predict(file:File,target:string,threshold:number){const body=new FormData();body.append('image',file);body.append('target_product',target);body.append('detection_threshold',String(threshold));return request<Prediction>('/api/inference/predict',{method:'POST',body})}

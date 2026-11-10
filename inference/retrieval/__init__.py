@@ -1,0 +1,1 @@
+"""RetailVision inference retrieval module."""

@@ -1,0 +1,1 @@
+"""RetailVision registry module."""

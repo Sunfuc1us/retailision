@@ -1,0 +1,74 @@
+{
+  "active_old_path_references": [],
+  "historical_occurrences": [
+    {
+      "path": "docs/DELIVERY.md",
+      "classification": "historical"
+    },
+    {
+      "path": "docs/MIGRATION_REPORT.md",
+      "classification": "historical"
+    },
+    {
+      "path": "logs/train-reid-resume.log",
+      "classification": "historical"
+    },
+    {
+      "path": "logs/92a98384be6a4b72b0af1ec28408ee05.log",
+      "classification": "historical"
+    },
+    {
+      "path": "logs/api-real-fixture.log",
+      "classification": "historical"
+    },
+    {
+      "path": "logs/train-seg-resume.log",
+      "classification": "historical"
+    },
+    {
+      "path": "logs/06c9573fc3b1482881abee74467bf9ec.log",
+      "classification": "historical"
+    },
+    {
+      "path": "logs/install-mmdet.log",
+      "classification": "historical"
+    },
+    {
+      "path": "logs/model-verification.log",
+      "classification": "historical"
+    },
+    {
+      "path": "logs/e442764fba27440b842a4045aa562a7f.log",
+      "classification": "historical"
+    },
+    {
+      "path": "logs/dataset-fixture-report.json",
+      "classification": "historical"
+    },
+    {
+      "path": "logs/train-reid-fixture.log",
+      "classification": "historical"
+    },
+    {
+      "path": "logs/train-seg-fixture.log",
+      "classification": "historical"
+    },
+    {
+      "path": "environments/seg-freeze.raw.txt",
+      "classification": "historical"
+    },
+    {
+      "path": "work_dirs/fixture_seg_resume/20261110_121048/20261110_121048.log",
+      "classification": "historical"
+    },
+    {
+      "path": "work_dirs/fixture_reid_resume/experiment.json",
+      "classification": "historical"
+    },
+    {
+      "path": "work_dirs/fixture_seg_smoke/20261110_121002/20261110_121002.log",
+      "classification": "historical"
+    }
+  ],
+  "legacy_symlinks": []
+}

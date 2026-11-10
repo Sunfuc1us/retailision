@@ -1,0 +1,6 @@
+
+Running 1 test using 1 worker
+
+  ✓  1 real-inference.spec.ts:2:1 › real local GPU adapters through workbench; COCO self-reference fixture (5.7s)
+
+  1 passed (6.4s)

@@ -1,0 +1,1 @@
+"""RetailVision catalog module."""

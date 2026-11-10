@@ -1,0 +1,13 @@
+Obtaining file:///home/gzh/rocco/retailvision
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: retailvision
+  Building editable for retailvision (pyproject.toml): started
+  Building editable for retailvision (pyproject.toml): finished with status 'done'
+  Created wheel for retailvision: filename=retailvision-0.1.0-0.editable-py3-none-any.whl size=3147 sha256=baadb679cd600102fcf3b6420aa3c03775b07c34f63a5dd94c35695abcb20026
+  Stored in directory: /tmp/pip-ephem-wheel-cache-c1u4fkpu/wheels/be/5f/7d/e7a0d0fc8baa2593960ea716ea4bc170b4a4ceb8b0cd402b5f
+Successfully built retailvision
+Installing collected packages: retailvision
+Successfully installed retailvision-0.1.0

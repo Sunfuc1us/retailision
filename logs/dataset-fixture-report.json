@@ -1,0 +1,11 @@
+{
+  "dataset_version": "251c155ac6e09836ea914bac720699303e5f490f3bb1f9edc939974bb43615d9",
+  "seed": 42,
+  "groups": {
+    "batch_1": "test",
+    "batch_0": "val",
+    "batch_2": "train"
+  },
+  "source": "/home/gzh/rocco/demoroom/retailvision/datasets/fixture_source/coco.json",
+  "fixture": true
+}

@@ -1,0 +1,87 @@
+{
+  "retailvision-seg": {
+    "executable": "/home/gzh/miniconda3/envs/retailvision-seg/bin/python",
+    "python": "3.10.22 (main, Oct 29 2026, 20:33:25) [GCC 14.3.0]",
+    "root": "/home/gzh/rocco/retailvision",
+    "sys_path": [
+      "",
+      "/home/gzh/miniconda3/envs/retailvision-seg/lib/python310.zip",
+      "/home/gzh/miniconda3/envs/retailvision-seg/lib/python3.10",
+      "/home/gzh/miniconda3/envs/retailvision-seg/lib/python3.10/lib-dynload",
+      "/home/gzh/miniconda3/envs/retailvision-seg/lib/python3.10/site-packages",
+      "__editable__.retailvision-0.1.0.finder.__path_hook__"
+    ],
+    "user_site": false,
+    "environment": {
+      "PYTHONNOUSERSITE": "1"
+    },
+    "packages": {
+      "torch": {
+        "version": "2.1.2+cu121",
+        "direct_url": null
+      },
+      "torchvision": {
+        "version": "0.16.2+cu121",
+        "direct_url": null
+      },
+      "mmcv": {
+        "version": "2.1.0",
+        "direct_url": "{\"archive_info\": {\"hash\": \"sha256=a95a64e12fa88c568d4384e6d5f42230e9e407e2b052f0b8da2ef859dc079b53\", \"hashes\": {\"sha256\": \"a95a64e12fa88c568d4384e6d5f42230e9e407e2b052f0b8da2ef859dc079b53\"}}, \"url\": \"file:///tmp/mmcv-2.1.0-cp310-cp310-manylinux1_x86_64.whl\"}"
+      },
+      "mmengine": {
+        "version": "0.10.7",
+        "direct_url": null
+      },
+      "mmdet": {
+        "version": "3.3.0",
+        "direct_url": "{\"dir_info\": {\"editable\": true}, \"url\": \"file:///home/gzh/rocco/retailvision/third_party/mmdetection\"}"
+      },
+      "faiss-cpu": {
+        "version": "1.15.1",
+        "direct_url": null
+      },
+      "retailvision": {
+        "version": "0.1.0",
+        "direct_url": "{\"dir_info\": {\"editable\": true}, \"url\": \"file:///home/gzh/rocco/retailvision\"}"
+      }
+    }
+  },
+  "retailvision-reid": {
+    "executable": "/home/gzh/miniconda3/envs/retailvision-reid/bin/python",
+    "python": "3.10.22 (main, Oct 29 2026, 20:33:25) [GCC 14.3.0]",
+    "root": "/home/gzh/rocco/retailvision",
+    "sys_path": [
+      "",
+      "/home/gzh/miniconda3/envs/retailvision-reid/lib/python310.zip",
+      "/home/gzh/miniconda3/envs/retailvision-reid/lib/python3.10",
+      "/home/gzh/miniconda3/envs/retailvision-reid/lib/python3.10/lib-dynload",
+      "/home/gzh/miniconda3/envs/retailvision-reid/lib/python3.10/site-packages",
+      "__editable__.retailvision-0.1.0.finder.__path_hook__"
+    ],
+    "user_site": false,
+    "environment": {
+      "PYTHONNOUSERSITE": "1"
+    },
+    "packages": {
+      "torch": {
+        "version": "2.1.2+cu121",
+        "direct_url": null
+      },
+      "torchvision": {
+        "version": "0.16.2+cu121",
+        "direct_url": null
+      },
+      "mmcv": null,
+      "mmengine": null,
+      "mmdet": null,
+      "faiss-cpu": {
+        "version": "1.15.1",
+        "direct_url": null
+      },
+      "retailvision": {
+        "version": "0.1.0",
+        "direct_url": "{\"dir_info\": {\"editable\": true}, \"url\": \"file:///home/gzh/rocco/retailvision\"}"
+      }
+    }
+  }
+}

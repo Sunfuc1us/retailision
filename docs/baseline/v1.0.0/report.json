@@ -1,0 +1,26 @@
+{
+  "fixture": true,
+  "scope": "COCO image model smoke test; not retail SKU accuracy",
+  "offline_python_network_blocked": true,
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "torch": "2.1.2+cu121",
+  "cuda": "12.1",
+  "segmentation_device": "cuda:0",
+  "recognition_device": "cuda:0",
+  "faiss_device": "cpu",
+  "segmentation_instances": 21,
+  "mask_shape": [
+    427,
+    640
+  ],
+  "embedding_shape": [
+    768
+  ],
+  "embedding_norm": 0.9999999403953552,
+  "faiss_self_retrieval": true,
+  "combined_real_pipeline_target_found": true,
+  "fixture_unknown_rejected": true,
+  "peak_gpu_allocated_bytes": 744930816,
+  "peak_gpu_reserved_bytes": 861929472,
+  "total_seconds": 4.459625675999632
+}

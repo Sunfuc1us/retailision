@@ -1,0 +1,111 @@
+{
+  "project_root": "/home/gzh/rocco/retailvision",
+  "forbidden_root": "/home/gzh/rocco/demoroom",
+  "runtime_text_files_scanned": 2430,
+  "runtime_old_path_violations": [],
+  "historical_tracebacks": [
+    {
+      "path": "work_dirs/fixture_reid_resume/experiment.json",
+      "field": "error",
+      "reason": "preserved historical failed-training traceback"
+    }
+  ],
+  "symlinks": [],
+  "checkpoint_hashes": [
+    {
+      "path": "models/recognition/dinov2_b14_v001/model.pth",
+      "sha256": "0b8b82f85de91b424aded121c7e1dcc2b7bc6d0adeea651bf73a13307fad8c73",
+      "match": true
+    },
+    {
+      "path": "models/segmentation/rtmdet_ins_s_coco_v001/model.pth",
+      "sha256": "fdc5d7ec327cf46dba079d664be98a853e80936098c1778edf5ffb726b084908",
+      "match": true
+    },
+    {
+      "path": "work_dirs/06c9573fc3b1482881abee74467bf9ec/best.pth",
+      "sha256": "93dcd01fb9446851922045b8d67ff042855b1561bc03e04d690dc8af30f2b2ff",
+      "match": true
+    },
+    {
+      "path": "work_dirs/06c9573fc3b1482881abee74467bf9ec/best_head.pth",
+      "sha256": "a8b4d69d33cb2b9e4dea4db1161a4a23bd0414cdda2207e415160247541f19e4",
+      "match": true
+    },
+    {
+      "path": "work_dirs/06c9573fc3b1482881abee74467bf9ec/last.pth",
+      "sha256": "7248d8698cea21d5841085fd358f837f56e9b6af7e1092be9b90540e4d78990c",
+      "match": true
+    },
+    {
+      "path": "work_dirs/92a98384be6a4b72b0af1ec28408ee05/best.pth",
+      "sha256": "93dcd01fb9446851922045b8d67ff042855b1561bc03e04d690dc8af30f2b2ff",
+      "match": true
+    },
+    {
+      "path": "work_dirs/92a98384be6a4b72b0af1ec28408ee05/best_head.pth",
+      "sha256": "a8b4d69d33cb2b9e4dea4db1161a4a23bd0414cdda2207e415160247541f19e4",
+      "match": true
+    },
+    {
+      "path": "work_dirs/92a98384be6a4b72b0af1ec28408ee05/last.pth",
+      "sha256": "7248d8698cea21d5841085fd358f837f56e9b6af7e1092be9b90540e4d78990c",
+      "match": true
+    },
+    {
+      "path": "work_dirs/e442764fba27440b842a4045aa562a7f/best.pth",
+      "sha256": "93dcd01fb9446851922045b8d67ff042855b1561bc03e04d690dc8af30f2b2ff",
+      "match": true
+    },
+    {
+      "path": "work_dirs/e442764fba27440b842a4045aa562a7f/best_head.pth",
+      "sha256": "a8b4d69d33cb2b9e4dea4db1161a4a23bd0414cdda2207e415160247541f19e4",
+      "match": true
+    },
+    {
+      "path": "work_dirs/e442764fba27440b842a4045aa562a7f/last.pth",
+      "sha256": "7248d8698cea21d5841085fd358f837f56e9b6af7e1092be9b90540e4d78990c",
+      "match": true
+    },
+    {
+      "path": "work_dirs/fixture_reid_resume_fixed/best.pth",
+      "sha256": "93dcd01fb9446851922045b8d67ff042855b1561bc03e04d690dc8af30f2b2ff",
+      "match": true
+    },
+    {
+      "path": "work_dirs/fixture_reid_resume_fixed/best_head.pth",
+      "sha256": "a8b4d69d33cb2b9e4dea4db1161a4a23bd0414cdda2207e415160247541f19e4",
+      "match": true
+    },
+    {
+      "path": "work_dirs/fixture_reid_resume_fixed/last.pth",
+      "sha256": "029c06e66cc9fd429848110d2add97f303c8bac341df167c03a4c7f0a1acf09a",
+      "match": true
+    },
+    {
+      "path": "work_dirs/fixture_reid_smoke/best.pth",
+      "sha256": "93dcd01fb9446851922045b8d67ff042855b1561bc03e04d690dc8af30f2b2ff",
+      "match": true
+    },
+    {
+      "path": "work_dirs/fixture_reid_smoke/best_head.pth",
+      "sha256": "a8b4d69d33cb2b9e4dea4db1161a4a23bd0414cdda2207e415160247541f19e4",
+      "match": true
+    },
+    {
+      "path": "work_dirs/fixture_reid_smoke/last.pth",
+      "sha256": "7248d8698cea21d5841085fd358f837f56e9b6af7e1092be9b90540e4d78990c",
+      "match": true
+    },
+    {
+      "path": "work_dirs/fixture_seg_resume/epoch_2.pth",
+      "sha256": "e0bd5b3e83faf4f20c42ab35da08062b3775aa9c6d29aa91d1e6063c20d88866",
+      "match": true
+    },
+    {
+      "path": "work_dirs/fixture_seg_smoke/epoch_1.pth",
+      "sha256": "b024ea4824f627750b9724317c43a1eb3bc67a707eb1df86a8c3042b90694667",
+      "match": true
+    }
+  ]
+}

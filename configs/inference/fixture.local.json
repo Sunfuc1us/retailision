@@ -1,0 +1,17 @@
+{
+  "fixture": true,
+  "segmentation": {
+    "config": "/home/gzh/rocco/retailvision/third_party/mmdetection/configs/rtmdet/rtmdet-ins_s_8xb32-300e_coco.py",
+    "checkpoint": "/home/gzh/rocco/retailvision/models/segmentation/rtmdet_ins_s_coco_v001/model.pth"
+  },
+  "recognition": {
+    "source": "/home/gzh/rocco/retailvision/third_party/dinov2",
+    "checkpoint": "/home/gzh/rocco/retailvision/models/recognition/dinov2_b14_v001/model.pth"
+  },
+  "gallery": "results/model_verification/gallery",
+  "catalog": "results/model_verification/catalog.json",
+  "calibration": "results/model_verification/calibration.json",
+  "gallery_version": "fixture",
+  "model_version": "fixture",
+  "results": "results"
+}

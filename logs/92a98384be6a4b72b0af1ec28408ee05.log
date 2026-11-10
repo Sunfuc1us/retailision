@@ -1,0 +1,14 @@
+2026-11-10 12:14:25,776 INFO faiss.loader Loading faiss with AVX2 support.
+2026-11-10 12:14:25,776 INFO faiss.loader Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-11-10 12:14:25,776 INFO faiss.loader Loading faiss.
+2026-11-10 12:14:25,830 INFO faiss.loader Successfully loaded faiss.
+/home/gzh/rocco/demoroom/retailvision/third_party/dinov2/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/home/gzh/rocco/demoroom/retailvision/third_party/dinov2/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/home/gzh/rocco/demoroom/retailvision/third_party/dinov2/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+2026-11-10 12:14:26,211 INFO dinov2 using MLP layer as FFN
+/home/gzh/miniconda3/envs/retailvision-reid/lib/python3.10/site-packages/torch/_utils.py:831: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.  To access UntypedStorage directly, use tensor.untyped_storage() instead of tensor.storage()
+  return self.fget.__get__(instance, owner)()

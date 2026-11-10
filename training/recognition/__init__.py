@@ -1,0 +1,1 @@
+"""RetailVision training recognition module."""

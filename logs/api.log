@@ -1,0 +1,204 @@
+2026-11-10 12:03:27,835 INFO faiss.loader Loading faiss with AVX2 support.
+2026-11-10 12:03:27,835 INFO faiss.loader Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-11-10 12:03:27,835 INFO faiss.loader Loading faiss.
+2026-11-10 12:03:27,848 INFO faiss.loader Successfully loaded faiss.
+2026-11-10 12:03:27,863 INFO httpx HTTP Request: GET http://testserver/api/health "HTTP/1.1 200 OK"
+2026-11-10 12:03:27,864 INFO httpx HTTP Request: GET http://testserver/api/models "HTTP/1.1 200 OK"
+2026-11-10 12:03:27,866 INFO httpx HTTP Request: GET http://testserver/api/catalog/missing "HTTP/1.1 404 Not Found"
+2026-11-10 12:03:27,892 INFO httpx HTTP Request: POST http://testserver/api/inference/predict "HTTP/1.1 422 Unprocessable Entity"
+2026-11-10 12:03:27,893 INFO httpx HTTP Request: POST http://testserver/api/inference/predict "HTTP/1.1 422 Unprocessable Entity"
+2026-11-10 12:03:27,896 INFO httpx HTTP Request: POST http://testserver/api/inference/predict "HTTP/1.1 503 Service Unavailable"
+2026-11-10 12:08:41,580 INFO faiss.loader Loading faiss with AVX2 support.
+2026-11-10 12:08:41,580 INFO faiss.loader Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-11-10 12:08:41,580 INFO faiss.loader Loading faiss.
+2026-11-10 12:08:41,593 INFO faiss.loader Successfully loaded faiss.
+2026-11-10 12:08:41,606 INFO httpx HTTP Request: GET http://testserver/api/health "HTTP/1.1 200 OK"
+2026-11-10 12:08:41,608 INFO httpx HTTP Request: GET http://testserver/api/models "HTTP/1.1 200 OK"
+2026-11-10 12:08:41,610 INFO httpx HTTP Request: GET http://testserver/api/catalog/missing "HTTP/1.1 404 Not Found"
+2026-11-10 12:08:41,635 INFO httpx HTTP Request: POST http://testserver/api/inference/predict "HTTP/1.1 422 Unprocessable Entity"
+2026-11-10 12:08:41,637 INFO httpx HTTP Request: POST http://testserver/api/inference/predict "HTTP/1.1 422 Unprocessable Entity"
+2026-11-10 12:08:41,640 INFO httpx HTTP Request: POST http://testserver/api/inference/predict "HTTP/1.1 503 Service Unavailable"
+2026-11-10 12:09:33,553 INFO faiss.loader Loading faiss with AVX2 support.
+2026-11-10 12:09:33,553 INFO faiss.loader Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-11-10 12:09:33,553 INFO faiss.loader Loading faiss.
+2026-11-10 12:09:33,567 INFO faiss.loader Successfully loaded faiss.
+2026-11-10 12:09:33,578 INFO httpx HTTP Request: GET http://testserver/api/health "HTTP/1.1 200 OK"
+2026-11-10 12:09:33,580 INFO httpx HTTP Request: GET http://testserver/api/models "HTTP/1.1 200 OK"
+2026-11-10 12:09:33,582 INFO httpx HTTP Request: GET http://testserver/api/catalog/missing "HTTP/1.1 404 Not Found"
+2026-11-10 12:09:33,608 INFO httpx HTTP Request: POST http://testserver/api/inference/predict "HTTP/1.1 422 Unprocessable Entity"
+2026-11-10 12:09:33,609 INFO httpx HTTP Request: POST http://testserver/api/inference/predict "HTTP/1.1 422 Unprocessable Entity"
+2026-11-10 12:09:33,612 INFO httpx HTTP Request: POST http://testserver/api/inference/predict "HTTP/1.1 503 Service Unavailable"
+2026-11-10 12:09:35,399 INFO httpx HTTP Request: POST http://testserver/api/inference/predict "HTTP/1.1 200 OK"
+2026-11-10 12:09:35,405 INFO httpx HTTP Request: GET http://testserver/api/results/fbaa3e28d9a3488c86285848f5916a3e/mask_001.png "HTTP/1.1 200 OK"
+2026-11-10 12:10:23,439 INFO faiss.loader Loading faiss with AVX2 support.
+2026-11-10 12:10:23,439 INFO faiss.loader Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-11-10 12:10:23,439 INFO faiss.loader Loading faiss.
+2026-11-10 12:10:23,452 INFO faiss.loader Successfully loaded faiss.
+2026-11-10 12:10:23,462 INFO httpx HTTP Request: GET http://testserver/api/health "HTTP/1.1 200 OK"
+2026-11-10 12:10:23,464 INFO httpx HTTP Request: GET http://testserver/api/models "HTTP/1.1 200 OK"
+2026-11-10 12:10:23,466 INFO httpx HTTP Request: GET http://testserver/api/catalog/missing "HTTP/1.1 404 Not Found"
+2026-11-10 12:10:23,521 INFO httpx HTTP Request: POST http://testserver/api/inference/predict "HTTP/1.1 422 Unprocessable Entity"
+2026-11-10 12:10:23,523 INFO httpx HTTP Request: POST http://testserver/api/inference/predict "HTTP/1.1 422 Unprocessable Entity"
+2026-11-10 12:10:23,526 INFO httpx HTTP Request: POST http://testserver/api/inference/predict "HTTP/1.1 503 Service Unavailable"
+2026-11-10 12:11:13,233 INFO httpx HTTP Request: POST http://testserver/api/inference/predict "HTTP/1.1 200 OK"
+2026-11-10 12:11:13,237 INFO httpx HTTP Request: GET http://testserver/api/results/c6f369231edb4fd09a2eb472290c2c4c/mask_001.png "HTTP/1.1 200 OK"
+2026-11-10 12:11:45,246 INFO faiss.loader Loading faiss with AVX2 support.
+2026-11-10 12:11:45,247 INFO faiss.loader Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-11-10 12:11:45,247 INFO faiss.loader Loading faiss.
+2026-11-10 12:11:45,261 INFO faiss.loader Successfully loaded faiss.
+2026-11-10 12:11:47,335 INFO faiss.loader Loading faiss with AVX2 support.
+2026-11-10 12:11:47,335 INFO faiss.loader Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-11-10 12:11:47,335 INFO faiss.loader Loading faiss.
+2026-11-10 12:11:47,349 INFO faiss.loader Successfully loaded faiss.
+2026-11-10 12:11:47,359 INFO httpx HTTP Request: GET http://testserver/api/health "HTTP/1.1 200 OK"
+2026-11-10 12:11:47,361 INFO httpx HTTP Request: GET http://testserver/api/models "HTTP/1.1 200 OK"
+2026-11-10 12:11:47,363 INFO httpx HTTP Request: GET http://testserver/api/catalog/missing "HTTP/1.1 404 Not Found"
+2026-11-10 12:11:47,422 INFO httpx HTTP Request: POST http://testserver/api/inference/predict "HTTP/1.1 422 Unprocessable Entity"
+2026-11-10 12:11:47,424 INFO httpx HTTP Request: POST http://testserver/api/inference/predict "HTTP/1.1 422 Unprocessable Entity"
+2026-11-10 12:11:47,427 INFO httpx HTTP Request: POST http://testserver/api/inference/predict "HTTP/1.1 503 Service Unavailable"
+2026-11-10 12:11:48,160 INFO dinov2 using MLP layer as FFN
+2026-11-10 12:12:27,010 INFO httpx HTTP Request: POST http://testserver/api/training/start "HTTP/1.1 202 Accepted"
+2026-11-10 12:12:27,012 INFO httpx HTTP Request: GET http://testserver/api/training/06c9573fc3b1482881abee74467bf9ec "HTTP/1.1 200 OK"
+2026-11-10 12:12:27,012 INFO httpx HTTP Request: GET http://testserver/api/training/06c9573fc3b1482881abee74467bf9ec "HTTP/1.1 200 OK"
+2026-11-10 12:12:27,514 INFO httpx HTTP Request: GET http://testserver/api/training/06c9573fc3b1482881abee74467bf9ec "HTTP/1.1 200 OK"
+2026-11-10 12:12:28,016 INFO httpx HTTP Request: GET http://testserver/api/training/06c9573fc3b1482881abee74467bf9ec "HTTP/1.1 200 OK"
+2026-11-10 12:12:28,518 INFO httpx HTTP Request: GET http://testserver/api/training/06c9573fc3b1482881abee74467bf9ec "HTTP/1.1 200 OK"
+2026-11-10 12:12:29,019 INFO httpx HTTP Request: GET http://testserver/api/training/06c9573fc3b1482881abee74467bf9ec "HTTP/1.1 200 OK"
+2026-11-10 12:12:29,521 INFO httpx HTTP Request: GET http://testserver/api/training/06c9573fc3b1482881abee74467bf9ec "HTTP/1.1 200 OK"
+2026-11-10 12:12:30,024 INFO httpx HTTP Request: GET http://testserver/api/training/06c9573fc3b1482881abee74467bf9ec "HTTP/1.1 200 OK"
+2026-11-10 12:12:30,526 INFO httpx HTTP Request: GET http://testserver/api/training/06c9573fc3b1482881abee74467bf9ec "HTTP/1.1 200 OK"
+2026-11-10 12:12:31,028 INFO httpx HTTP Request: GET http://testserver/api/training/06c9573fc3b1482881abee74467bf9ec "HTTP/1.1 200 OK"
+2026-11-10 12:12:31,530 INFO httpx HTTP Request: GET http://testserver/api/training/06c9573fc3b1482881abee74467bf9ec "HTTP/1.1 200 OK"
+2026-11-10 12:12:32,032 INFO httpx HTTP Request: GET http://testserver/api/training/06c9573fc3b1482881abee74467bf9ec "HTTP/1.1 200 OK"
+2026-11-10 12:12:32,033 INFO httpx HTTP Request: POST http://testserver/api/training/start "HTTP/1.1 422 Unprocessable Entity"
+2026-11-10 12:12:56,468 INFO httpx HTTP Request: POST http://testserver/api/training/start "HTTP/1.1 202 Accepted"
+2026-11-10 12:12:56,469 INFO httpx HTTP Request: GET http://testserver/api/training/e442764fba27440b842a4045aa562a7f "HTTP/1.1 200 OK"
+2026-11-10 12:12:56,470 INFO httpx HTTP Request: GET http://testserver/api/training/e442764fba27440b842a4045aa562a7f "HTTP/1.1 200 OK"
+2026-11-10 12:12:56,972 INFO httpx HTTP Request: GET http://testserver/api/training/e442764fba27440b842a4045aa562a7f "HTTP/1.1 200 OK"
+2026-11-10 12:12:57,474 INFO httpx HTTP Request: GET http://testserver/api/training/e442764fba27440b842a4045aa562a7f "HTTP/1.1 200 OK"
+2026-11-10 12:12:57,976 INFO httpx HTTP Request: GET http://testserver/api/training/e442764fba27440b842a4045aa562a7f "HTTP/1.1 200 OK"
+2026-11-10 12:12:58,478 INFO httpx HTTP Request: GET http://testserver/api/training/e442764fba27440b842a4045aa562a7f "HTTP/1.1 200 OK"
+2026-11-10 12:12:58,980 INFO httpx HTTP Request: GET http://testserver/api/training/e442764fba27440b842a4045aa562a7f "HTTP/1.1 200 OK"
+2026-11-10 12:12:59,482 INFO httpx HTTP Request: GET http://testserver/api/training/e442764fba27440b842a4045aa562a7f "HTTP/1.1 200 OK"
+2026-11-10 12:12:59,984 INFO httpx HTTP Request: GET http://testserver/api/training/e442764fba27440b842a4045aa562a7f "HTTP/1.1 200 OK"
+2026-11-10 12:13:00,486 INFO httpx HTTP Request: GET http://testserver/api/training/e442764fba27440b842a4045aa562a7f "HTTP/1.1 200 OK"
+2026-11-10 12:13:00,988 INFO httpx HTTP Request: GET http://testserver/api/training/e442764fba27440b842a4045aa562a7f "HTTP/1.1 200 OK"
+2026-11-10 12:13:01,490 INFO httpx HTTP Request: GET http://testserver/api/training/e442764fba27440b842a4045aa562a7f "HTTP/1.1 200 OK"
+2026-11-10 12:13:01,491 INFO httpx HTTP Request: POST http://testserver/api/training/start "HTTP/1.1 422 Unprocessable Entity"
+2026-11-10 12:14:08,858 INFO faiss.loader Loading faiss with AVX2 support.
+2026-11-10 12:14:08,858 INFO faiss.loader Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-11-10 12:14:08,858 INFO faiss.loader Loading faiss.
+2026-11-10 12:14:08,871 INFO faiss.loader Successfully loaded faiss.
+2026-11-10 12:14:08,882 INFO httpx HTTP Request: GET http://testserver/api/health "HTTP/1.1 200 OK"
+2026-11-10 12:14:08,884 INFO httpx HTTP Request: GET http://testserver/api/models "HTTP/1.1 200 OK"
+2026-11-10 12:14:08,886 INFO httpx HTTP Request: GET http://testserver/api/catalog/missing "HTTP/1.1 404 Not Found"
+2026-11-10 12:14:08,943 INFO httpx HTTP Request: POST http://testserver/api/inference/predict "HTTP/1.1 422 Unprocessable Entity"
+2026-11-10 12:14:08,944 INFO httpx HTTP Request: POST http://testserver/api/inference/predict "HTTP/1.1 422 Unprocessable Entity"
+2026-11-10 12:14:08,947 INFO httpx HTTP Request: POST http://testserver/api/inference/predict "HTTP/1.1 503 Service Unavailable"
+2026-11-10 12:14:22,965 INFO httpx HTTP Request: POST http://testserver/api/training/start "HTTP/1.1 202 Accepted"
+2026-11-10 12:14:22,966 INFO httpx HTTP Request: GET http://testserver/api/training/92a98384be6a4b72b0af1ec28408ee05 "HTTP/1.1 200 OK"
+2026-11-10 12:14:22,967 INFO httpx HTTP Request: GET http://testserver/api/training/92a98384be6a4b72b0af1ec28408ee05 "HTTP/1.1 200 OK"
+2026-11-10 12:14:23,469 INFO httpx HTTP Request: GET http://testserver/api/training/92a98384be6a4b72b0af1ec28408ee05 "HTTP/1.1 200 OK"
+2026-11-10 12:14:23,971 INFO httpx HTTP Request: GET http://testserver/api/training/92a98384be6a4b72b0af1ec28408ee05 "HTTP/1.1 200 OK"
+2026-11-10 12:14:24,473 INFO httpx HTTP Request: GET http://testserver/api/training/92a98384be6a4b72b0af1ec28408ee05 "HTTP/1.1 200 OK"
+2026-11-10 12:14:24,975 INFO httpx HTTP Request: GET http://testserver/api/training/92a98384be6a4b72b0af1ec28408ee05 "HTTP/1.1 200 OK"
+2026-11-10 12:14:25,477 INFO httpx HTTP Request: GET http://testserver/api/training/92a98384be6a4b72b0af1ec28408ee05 "HTTP/1.1 200 OK"
+2026-11-10 12:14:25,979 INFO httpx HTTP Request: GET http://testserver/api/training/92a98384be6a4b72b0af1ec28408ee05 "HTTP/1.1 200 OK"
+2026-11-10 12:14:26,481 INFO httpx HTTP Request: GET http://testserver/api/training/92a98384be6a4b72b0af1ec28408ee05 "HTTP/1.1 200 OK"
+2026-11-10 12:14:26,983 INFO httpx HTTP Request: GET http://testserver/api/training/92a98384be6a4b72b0af1ec28408ee05 "HTTP/1.1 200 OK"
+2026-11-10 12:14:27,485 INFO httpx HTTP Request: GET http://testserver/api/training/92a98384be6a4b72b0af1ec28408ee05 "HTTP/1.1 200 OK"
+2026-11-10 12:14:27,987 INFO httpx HTTP Request: GET http://testserver/api/training/92a98384be6a4b72b0af1ec28408ee05 "HTTP/1.1 200 OK"
+2026-11-10 12:14:28,103 INFO httpx HTTP Request: POST http://testserver/api/training/start "HTTP/1.1 202 Accepted"
+2026-11-10 12:14:28,106 INFO httpx HTTP Request: POST http://testserver/api/training/61546d9d6d9d49a2b7dd30e309a8add9/stop "HTTP/1.1 200 OK"
+2026-11-10 12:14:28,106 INFO httpx HTTP Request: GET http://testserver/api/training/61546d9d6d9d49a2b7dd30e309a8add9 "HTTP/1.1 200 OK"
+2026-11-10 13:41:18,979 INFO faiss.loader Loading faiss with AVX2 support.
+2026-11-10 13:41:18,979 INFO faiss.loader Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-11-10 13:41:18,979 INFO faiss.loader Loading faiss.
+2026-11-10 13:41:19,021 INFO faiss.loader Successfully loaded faiss.
+2026-11-10 13:41:19,035 INFO httpx HTTP Request: GET http://testserver/api/health "HTTP/1.1 200 OK"
+2026-11-10 13:41:19,037 INFO httpx HTTP Request: GET http://testserver/api/models "HTTP/1.1 200 OK"
+2026-11-10 13:41:19,039 INFO httpx HTTP Request: GET http://testserver/api/catalog/missing "HTTP/1.1 404 Not Found"
+2026-11-10 13:41:19,066 INFO httpx HTTP Request: POST http://testserver/api/inference/predict "HTTP/1.1 422 Unprocessable Entity"
+2026-11-10 13:41:19,068 INFO httpx HTTP Request: POST http://testserver/api/inference/predict "HTTP/1.1 422 Unprocessable Entity"
+2026-11-10 13:41:19,071 INFO httpx HTTP Request: POST http://testserver/api/inference/predict "HTTP/1.1 503 Service Unavailable"
+2026-11-10 13:41:23,283 INFO faiss.loader Loading faiss with AVX2 support.
+2026-11-10 13:41:23,283 INFO faiss.loader Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-11-10 13:41:23,283 INFO faiss.loader Loading faiss.
+2026-11-10 13:41:23,297 INFO faiss.loader Successfully loaded faiss.
+2026-11-10 13:41:23,307 INFO httpx HTTP Request: GET http://testserver/api/health "HTTP/1.1 200 OK"
+2026-11-10 13:41:23,309 INFO httpx HTTP Request: GET http://testserver/api/models "HTTP/1.1 200 OK"
+2026-11-10 13:41:23,310 INFO httpx HTTP Request: GET http://testserver/api/catalog/missing "HTTP/1.1 404 Not Found"
+2026-11-10 13:41:23,346 INFO httpx HTTP Request: POST http://testserver/api/inference/predict "HTTP/1.1 422 Unprocessable Entity"
+2026-11-10 13:41:23,348 INFO httpx HTTP Request: POST http://testserver/api/inference/predict "HTTP/1.1 422 Unprocessable Entity"
+2026-11-10 13:41:23,351 INFO httpx HTTP Request: POST http://testserver/api/inference/predict "HTTP/1.1 503 Service Unavailable"
+2026-11-10 13:41:32,315 INFO httpx HTTP Request: POST http://testserver/api/inference/predict "HTTP/1.1 200 OK"
+2026-11-10 13:41:32,419 INFO httpx HTTP Request: GET http://testserver/api/results/e9e635dc624b46a3b6987b07d5b6bcd5/mask_001.png "HTTP/1.1 200 OK"
+2026-11-10 13:43:29,889 INFO faiss.loader Loading faiss with AVX2 support.
+2026-11-10 13:43:29,889 INFO faiss.loader Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-11-10 13:43:29,890 INFO faiss.loader Loading faiss.
+2026-11-10 13:43:29,904 INFO faiss.loader Successfully loaded faiss.
+2026-11-10 13:43:32,861 INFO dinov2 using MLP layer as FFN
+2026-11-10 13:43:36,764 INFO httpx HTTP Request: POST http://testserver/api/inference/predict "HTTP/1.1 200 OK"
+2026-11-10 13:43:36,769 INFO httpx HTTP Request: GET http://testserver/api/results/b080955f44c84ad0aad8e59e796eb50e/mask_001.png "HTTP/1.1 200 OK"
+2026-11-10 13:45:11,398 INFO faiss.loader Loading faiss with AVX2 support.
+2026-11-10 13:45:11,398 INFO faiss.loader Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-11-10 13:45:11,398 INFO faiss.loader Loading faiss.
+2026-11-10 13:45:11,411 INFO faiss.loader Successfully loaded faiss.
+2026-11-10 13:45:11,422 INFO httpx HTTP Request: GET http://testserver/api/health "HTTP/1.1 200 OK"
+2026-11-10 13:45:11,423 INFO httpx HTTP Request: GET http://testserver/api/models "HTTP/1.1 200 OK"
+2026-11-10 13:45:11,425 INFO httpx HTTP Request: GET http://testserver/api/catalog/missing "HTTP/1.1 404 Not Found"
+2026-11-10 13:45:11,480 INFO httpx HTTP Request: POST http://testserver/api/inference/predict "HTTP/1.1 422 Unprocessable Entity"
+2026-11-10 13:45:11,482 INFO httpx HTTP Request: POST http://testserver/api/inference/predict "HTTP/1.1 422 Unprocessable Entity"
+2026-11-10 13:45:11,485 INFO httpx HTTP Request: POST http://testserver/api/inference/predict "HTTP/1.1 503 Service Unavailable"
+2026-11-10 13:45:15,618 INFO faiss.loader Loading faiss with AVX2 support.
+2026-11-10 13:45:15,618 INFO faiss.loader Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-11-10 13:45:15,619 INFO faiss.loader Loading faiss.
+2026-11-10 13:45:15,632 INFO faiss.loader Successfully loaded faiss.
+2026-11-10 13:45:15,643 INFO httpx HTTP Request: GET http://testserver/api/health "HTTP/1.1 200 OK"
+2026-11-10 13:45:15,644 INFO httpx HTTP Request: GET http://testserver/api/models "HTTP/1.1 200 OK"
+2026-11-10 13:45:15,646 INFO httpx HTTP Request: GET http://testserver/api/catalog/missing "HTTP/1.1 404 Not Found"
+2026-11-10 13:45:15,671 INFO httpx HTTP Request: POST http://testserver/api/inference/predict "HTTP/1.1 422 Unprocessable Entity"
+2026-11-10 13:45:15,673 INFO httpx HTTP Request: POST http://testserver/api/inference/predict "HTTP/1.1 422 Unprocessable Entity"
+2026-11-10 13:45:15,676 INFO httpx HTTP Request: POST http://testserver/api/inference/predict "HTTP/1.1 503 Service Unavailable"
+2026-11-10 13:56:45,839 INFO faiss.loader Loading faiss with AVX2 support.
+2026-11-10 13:56:45,839 INFO faiss.loader Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-11-10 13:56:45,839 INFO faiss.loader Loading faiss.
+2026-11-10 13:56:45,854 INFO faiss.loader Successfully loaded faiss.
+2026-11-10 13:56:45,865 INFO httpx HTTP Request: GET http://testserver/api/health "HTTP/1.1 200 OK"
+2026-11-10 13:56:45,867 INFO httpx HTTP Request: GET http://testserver/api/models "HTTP/1.1 200 OK"
+2026-11-10 13:56:45,869 INFO httpx HTTP Request: GET http://testserver/api/catalog/missing "HTTP/1.1 404 Not Found"
+2026-11-10 13:56:45,881 INFO faiss.loader Loading faiss with AVX2 support.
+2026-11-10 13:56:45,881 INFO faiss.loader Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-11-10 13:56:45,881 INFO faiss.loader Loading faiss.
+2026-11-10 13:56:45,896 INFO faiss.loader Successfully loaded faiss.
+2026-11-10 13:56:45,896 INFO httpx HTTP Request: POST http://testserver/api/inference/predict "HTTP/1.1 422 Unprocessable Entity"
+2026-11-10 13:56:45,898 INFO httpx HTTP Request: POST http://testserver/api/inference/predict "HTTP/1.1 422 Unprocessable Entity"
+2026-11-10 13:56:45,901 INFO httpx HTTP Request: POST http://testserver/api/inference/predict "HTTP/1.1 503 Service Unavailable"
+2026-11-10 13:56:45,908 INFO httpx HTTP Request: GET http://testserver/api/health "HTTP/1.1 200 OK"
+2026-11-10 13:56:45,910 INFO httpx HTTP Request: GET http://testserver/api/models "HTTP/1.1 200 OK"
+2026-11-10 13:56:45,912 INFO httpx HTTP Request: GET http://testserver/api/catalog/missing "HTTP/1.1 404 Not Found"
+2026-11-10 13:56:45,987 INFO httpx HTTP Request: POST http://testserver/api/inference/predict "HTTP/1.1 422 Unprocessable Entity"
+2026-11-10 13:56:45,988 INFO httpx HTTP Request: POST http://testserver/api/inference/predict "HTTP/1.1 422 Unprocessable Entity"
+2026-11-10 13:56:45,992 INFO httpx HTTP Request: POST http://testserver/api/inference/predict "HTTP/1.1 503 Service Unavailable"
+2026-11-10 13:56:50,741 INFO httpx HTTP Request: POST http://testserver/api/inference/predict "HTTP/1.1 200 OK"
+2026-11-10 13:56:50,747 INFO httpx HTTP Request: GET http://testserver/api/results/4c489c9f865d4d769d9790147e79c08c/mask_001.png "HTTP/1.1 200 OK"
+2026-11-10 13:58:55,364 INFO faiss.loader Loading faiss with AVX2 support.
+2026-11-10 13:58:55,364 INFO faiss.loader Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-11-10 13:58:55,364 INFO faiss.loader Loading faiss.
+2026-11-10 13:58:55,377 INFO faiss.loader Successfully loaded faiss.
+2026-11-10 13:58:58,250 INFO dinov2 using MLP layer as FFN

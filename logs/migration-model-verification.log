@@ -1,0 +1,38 @@
+/home/gzh/miniconda3/envs/retailvision-seg/lib/python3.10/site-packages/torch/functional.py:504: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at ../aten/src/ATen/native/TensorShape.cpp:3526.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+/home/gzh/rocco/retailvision/third_party/dinov2/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/home/gzh/rocco/retailvision/third_party/dinov2/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/home/gzh/rocco/retailvision/third_party/dinov2/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+/home/gzh/miniconda3/envs/retailvision-seg/lib/python3.10/site-packages/torch/_utils.py:831: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.  To access UntypedStorage directly, use tensor.untyped_storage() instead of tensor.storage()
+  return self.fget.__get__(instance, owner)()
+/home/gzh/miniconda3/envs/retailvision-seg/lib/python3.10/site-packages/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+  from starlette.testclient import TestClient as TestClient  # noqa
+2026-11-10 13:41:32,315 INFO httpx HTTP Request: POST http://testserver/api/inference/predict "HTTP/1.1 200 OK"
+2026-11-10 13:41:32,419 INFO httpx HTTP Request: GET http://testserver/api/results/e9e635dc624b46a3b6987b07d5b6bcd5/mask_001.png "HTTP/1.1 200 OK"
+Loads checkpoint by local backend from path: /home/gzh/rocco/retailvision/models/segmentation/rtmdet_ins_s_coco_v001/model.pth
+{
+  "fixture": true,
+  "scope": "COCO image model smoke test; not retail SKU accuracy",
+  "offline_python_network_blocked": true,
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "torch": "2.1.2+cu121",
+  "cuda": "12.1",
+  "segmentation_instances": 21,
+  "mask_shape": [
+    427,
+    640
+  ],
+  "embedding_shape": [
+    768
+  ],
+  "embedding_norm": 0.9999999403953552,
+  "faiss_self_retrieval": true,
+  "combined_real_pipeline_target_found": true,
+  "fixture_unknown_rejected": true,
+  "peak_gpu_allocated_bytes": 744930816,
+  "peak_gpu_reserved_bytes": 861929472,
+  "total_seconds": 4.53350006599976
+}

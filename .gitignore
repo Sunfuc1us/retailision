@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+node_modules/
+frontend/dist/
+third_party/
+models/
+datasets/
+work_dirs/
+results/
+*.egg-info/
+*.tsbuildinfo
+frontend/test-results/

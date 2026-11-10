@@ -1,0 +1,1 @@
+"""RetailVision backend schemas module."""

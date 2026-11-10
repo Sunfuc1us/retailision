@@ -1,0 +1,192 @@
+{
+  "platform": "linux-64",
+  "conda_version": "26.3.2",
+  "conda_env_version": "26.3.2",
+  "conda_build_version": "not installed",
+  "root_prefix": "/home/gzh/miniconda3",
+  "conda_prefix": "/home/gzh/miniconda3",
+  "av_data_dir": "/home/gzh/miniconda3/etc/conda",
+  "av_metadata_url_base": null,
+  "root_writable": true,
+  "pkgs_dirs": [
+    "/home/gzh/miniconda3/pkgs",
+    "/home/gzh/.conda/pkgs"
+  ],
+  "envs_dirs": [
+    "/home/gzh/miniconda3/envs",
+    "/home/gzh/.conda/envs"
+  ],
+  "default_prefix": "/home/gzh/miniconda3/envs/",
+  "active_prefix": "",
+  "active_prefix_name": null,
+  "conda_shlvl": 0,
+  "channels": [
+    "https://repo.anaconda.com/pkgs/main/linux-64",
+    "https://repo.anaconda.com/pkgs/main/noarch",
+    "https://repo.anaconda.com/pkgs/r/linux-64",
+    "https://repo.anaconda.com/pkgs/r/noarch"
+  ],
+  "user_rc_path": "/home/gzh/.condarc",
+  "rc_path": "/home/gzh/.condarc",
+  "sys_rc_path": "/home/gzh/miniconda3/.condarc",
+  "offline": false,
+  "envs": [
+    "/home/gzh/miniconda3",
+    "/home/gzh/miniconda3/envs/isaac_lab",
+    "/home/gzh/miniconda3/envs/lerobot",
+    "/home/gzh/miniconda3/envs/retailvision-reid",
+    "/home/gzh/miniconda3/envs/retailvision-seg",
+    "/home/gzh/miniconda3/envs/tv",
+    "/home/gzh/miniconda3/envs/unitree",
+    "/home/gzh/miniconda3/envs/yolo"
+  ],
+  "python_version": "3.13.13.final.0",
+  "requests_version": "2.33.1",
+  "user_agent": "conda/26.3.2 requests/2.33.1 CPython/3.13.13 Linux/6.8.0-138-generic ubuntu/22.04.5 glibc/2.35 solver/libmamba conda-libmamba-solver/26.4.0 libmambapy/2.3.2 aau/0.7.6 c/9ciY0YZEfRy_qNB-gs8IlI s/CeJ0Yjusi5TzpKchPCPlZd e/EdLXXc7oVqND1SsN-fC3TJ",
+  "conda_location": "/home/gzh/miniconda3/lib/python3.13/site-packages/conda",
+  "config_files": [
+    "/home/gzh/miniconda3/.condarc",
+    "/home/gzh/miniconda3/condarc.d/anaconda-auth.yml"
+  ],
+  "netrc_file": null,
+  "virtual_pkgs": [
+    [
+      "__archspec",
+      "1",
+      "skylake"
+    ],
+    [
+      "__conda",
+      "26.3.2",
+      "0"
+    ],
+    [
+      "__cuda",
+      "13.0",
+      "0"
+    ],
+    [
+      "__glibc",
+      "2.35",
+      "0"
+    ],
+    [
+      "__linux",
+      "6.8.0",
+      "0"
+    ],
+    [
+      "__unix",
+      "0",
+      "0"
+    ]
+  ],
+  "solver": {
+    "name": "libmamba",
+    "user_agent": "solver/libmamba conda-libmamba-solver/26.4.0 libmambapy/2.3.2",
+    "default": true
+  },
+  "tmp_dir": "/tmp",
+  "UID": 1000,
+  "GID": 1000,
+  "sys.version": "3.13.13 | packaged by Anaconda, Inc. | (main, Apr 14 2026, 06:19:41) [GCC 14.3.0]",
+  "sys.prefix": "/home/gzh/miniconda3",
+  "sys.executable": "/home/gzh/miniconda3/bin/python",
+  "site_dirs": [
+    "~/.local/lib/python3.10"
+  ],
+  "env_vars": {
+    "LD_PRELOAD": "<not set>",
+    "CONDA_PROMPT_MODIFIER": "",
+    "LD_LIBRARY_PATH": "/opt/MVS/lib/32:/opt/MVS/lib/32:/opt/MVS/lib/32:/opt/MVS/lib/32:/opt/MVS/lib/32:/opt/MVS/lib/32:/opt/MVS/lib/32:/opt/MVS/lib/32:",
+    "PATH": "/home/gzh/.codex/packages/app-server-daemon/releases/0.167.0-x86_64-unknown-linux-musl/codex-path:/home/gzh/.local/bin:/home/gzh/.local/bin:/home/gzh/bin:/home/gzh/.codex/tmp/arg0-linux/codex-arg0t8jsCc:/home/gzh/.codex/packages/app-server-daemon/releases/0.167.0-x86_64-unknown-linux-musl/codex-path:/home/gzh/.codex/tmp/arg0-linux/codex-arg0ITgf4S:/home/gzh/.codex/packages/standalone/releases/0.167.0-x86_64-unknown-linux-musl/codex-path:/home/gzh/rocco/eagle/data_collection/third_party/cyclonedds/install/bin:/home/gzh/.local/bin:/home/gzh/.local/bin:/home/gzh/.local/bin:/home/gzh/.local/bin:/home/gzh/bin:/home/gzh/rocco/eagle/data_collection/third_party/cyclonedds/install/bin:/home/gzh/.local/bin:/home/gzh/.nvm/versions/node/v20.20.2/bin:/home/gzh/.local/bin:/home/gzh/miniconda3/condabin:/home/gzh/.local/bin:/home/gzh/.local/bin:/home/gzh/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/gzh/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts:/home/gzh/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/usr/share/code/bin/copilot-shim",
+    "CONDA_SHLVL": "0",
+    "BUNDLED_DEBUGPY_PATH": "/home/gzh/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy",
+    "CONDA_ROOT": "/home/gzh/miniconda3",
+    "WINDOWPATH": "2",
+    "CURL_CA_BUNDLE": "<not set>",
+    "MVCAM_SDK_PATH": "/opt/MVS",
+    "CIO_TEST": "<not set>",
+    "CONDA_PYTHON_EXE": "/home/gzh/miniconda3/bin/python",
+    "SSL_CERT_FILE": "<not set>",
+    "CONDA_PREFIX": "",
+    "REQUESTS_CA_BUNDLE": "<not set>",
+    "CONDA_EXE": "/home/gzh/miniconda3/bin/conda",
+    "CONDA_DEFAULT_ENV": "",
+    "PYTHONSTARTUP": "/home/gzh/.config/Code/User/workspaceStorage/bf029823aa12fa5931975b75acb93544/ms-python.python/pythonrc.py"
+  },
+  "envs_details": {
+    "/home/gzh/miniconda3": {
+      "name": "base",
+      "created": null,
+      "last_modified": "2026-04-27T21:46:24.036468+00:00",
+      "active": false,
+      "base": true,
+      "frozen": false,
+      "writable": true
+    },
+    "/home/gzh/miniconda3/envs/isaac_lab": {
+      "name": "isaac_lab",
+      "created": "2026-08-06T09:33:34.047506+00:00",
+      "last_modified": "2026-08-06T09:33:34.046691+00:00",
+      "active": false,
+      "base": false,
+      "frozen": false,
+      "writable": true
+    },
+    "/home/gzh/miniconda3/envs/lerobot": {
+      "name": "lerobot",
+      "created": "2026-08-13T01:51:19.100264+00:00",
+      "last_modified": "2026-10-30T08:18:57.338208+00:00",
+      "active": false,
+      "base": false,
+      "frozen": false,
+      "writable": true
+    },
+    "/home/gzh/miniconda3/envs/retailvision-reid": {
+      "name": "retailvision-reid",
+      "created": "2026-11-10T04:00:16.229109+00:00",
+      "last_modified": "2026-11-10T04:00:16.228221+00:00",
+      "active": false,
+      "base": false,
+      "frozen": false,
+      "writable": true
+    },
+    "/home/gzh/miniconda3/envs/retailvision-seg": {
+      "name": "retailvision-seg",
+      "created": "2026-11-10T03:50:50.043185+00:00",
+      "last_modified": "2026-11-10T03:50:50.042846+00:00",
+      "active": false,
+      "base": false,
+      "frozen": false,
+      "writable": true
+    },
+    "/home/gzh/miniconda3/envs/tv": {
+      "name": "tv",
+      "created": "2026-08-10T01:25:36.829242+00:00",
+      "last_modified": "2026-08-10T01:39:39.531539+00:00",
+      "active": false,
+      "base": false,
+      "frozen": false,
+      "writable": true
+    },
+    "/home/gzh/miniconda3/envs/unitree": {
+      "name": "unitree",
+      "created": "2026-08-13T01:51:19.100264+00:00",
+      "last_modified": "2026-10-30T08:18:57.338208+00:00",
+      "active": false,
+      "base": false,
+      "frozen": false,
+      "writable": true
+    },
+    "/home/gzh/miniconda3/envs/yolo": {
+      "name": "yolo",
+      "created": "2026-09-28T01:40:41.260365+00:00",
+      "last_modified": "2026-09-28T01:40:41.259420+00:00",
+      "active": false,
+      "base": false,
+      "frozen": false,
+      "writable": true
+    }
+  }
+}

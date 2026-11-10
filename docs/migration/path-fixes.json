@@ -1,0 +1,14 @@
+[
+  "models/recognition/dinov2_b14_v001/config.json",
+  "datasets/fixture_v001/manifest.json",
+  "datasets/fixture_v001/segmentation/manifest.json",
+  "datasets/fixture_v001/recognition/metadata.json",
+  "work_dirs/fixture_seg_resume/last_checkpoint",
+  "work_dirs/fixture_seg_resume/resolved_config.py",
+  "work_dirs/fixture_seg_resume/fixture_resume.py",
+  "work_dirs/fixture_seg_resume/20261110_121048/vis_data/config.py",
+  "work_dirs/fixture_seg_smoke/last_checkpoint",
+  "work_dirs/fixture_seg_smoke/fixture_smoke.py",
+  "work_dirs/fixture_seg_smoke/resolved_config.py",
+  "work_dirs/fixture_seg_smoke/20261110_121002/vis_data/config.py"
+]

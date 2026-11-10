@@ -1,0 +1,31 @@
+Obtaining file:///home/gzh/rocco/retailvision/third_party/mmdetection
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Obtaining file:///home/gzh/rocco/retailvision
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: mmdet, retailvision
+  Building editable for mmdet (pyproject.toml): started
+  Building editable for mmdet (pyproject.toml): finished with status 'done'
+  Created wheel for mmdet: filename=mmdet-3.3.0-0.editable-py3-none-any.whl size=14508 sha256=16d5cefd225df3cdf2d71cc8aede81a5101c073ea3ad19129a7e712337ab9fc3
+  Stored in directory: /tmp/pip-ephem-wheel-cache-o_c_8yc0/wheels/b8/c5/3a/0527e569789f25a5f40a33607bc21a8ae5d51172881accd0f9
+  Building editable for retailvision (pyproject.toml): started
+  Building editable for retailvision (pyproject.toml): finished with status 'done'
+  Created wheel for retailvision: filename=retailvision-0.1.0-0.editable-py3-none-any.whl size=3146 sha256=923849a9cb38c4565da7e5b0781eb66ab58d9e7b6af8a3860dcfbe4b17de817c
+  Stored in directory: /tmp/pip-ephem-wheel-cache-o_c_8yc0/wheels/be/5f/7d/e7a0d0fc8baa2593960ea716ea4bc170b4a4ceb8b0cd402b5f
+Successfully built mmdet retailvision
+Installing collected packages: mmdet, retailvision
+  Attempting uninstall: mmdet
+    Found existing installation: mmdet 3.3.0
+    Uninstalling mmdet-3.3.0:
+      Successfully uninstalled mmdet-3.3.0
+  Attempting uninstall: retailvision
+    Found existing installation: retailvision 0.1.0
+    Uninstalling retailvision-0.1.0:
+      Successfully uninstalled retailvision-0.1.0
+
+Successfully installed mmdet-3.3.0 retailvision-0.1.0

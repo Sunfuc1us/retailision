@@ -1,0 +1,45 @@
+{
+  "executable": "/home/gzh/miniconda3/envs/retailvision-seg/bin/python",
+  "project_root": "/home/gzh/rocco/retailvision",
+  "user_site": false,
+  "sys_path": [
+    "/tmp",
+    "/home/gzh/miniconda3/envs/retailvision-seg/lib/python310.zip",
+    "/home/gzh/miniconda3/envs/retailvision-seg/lib/python3.10",
+    "/home/gzh/miniconda3/envs/retailvision-seg/lib/python3.10/lib-dynload",
+    "/home/gzh/miniconda3/envs/retailvision-seg/lib/python3.10/site-packages",
+    "__editable__.retailvision-1.0.0.finder.__path_hook__"
+  ],
+  "packages": {
+    "retailvision": {
+      "version": "1.0.0",
+      "direct_url": "{\"dir_info\": {\"editable\": true}, \"url\": \"file:///home/gzh/rocco/retailvision\"}"
+    },
+    "torch": {
+      "version": "2.1.2+cu121",
+      "direct_url": null
+    },
+    "torchvision": {
+      "version": "0.16.2+cu121",
+      "direct_url": null
+    },
+    "faiss-cpu": {
+      "version": "1.15.1",
+      "direct_url": null
+    },
+    "mmcv": {
+      "version": "2.1.0",
+      "direct_url": "{\"archive_info\": {\"hash\": \"sha256=a95a64e12fa88c568d4384e6d5f42230e9e407e2b052f0b8da2ef859dc079b53\", \"hashes\": {\"sha256\": \"a95a64e12fa88c568d4384e6d5f42230e9e407e2b052f0b8da2ef859dc079b53\"}}, \"url\": \"file:///tmp/mmcv-2.1.0-cp310-cp310-manylinux1_x86_64.whl\"}"
+    },
+    "mmengine": {
+      "version": "0.10.7",
+      "direct_url": null
+    },
+    "mmdet": {
+      "version": "3.3.0",
+      "direct_url": "{\"dir_info\": {\"editable\": true}, \"url\": \"file:///home/gzh/rocco/retailvision/third_party/mmdetection\"}"
+    }
+  },
+  "cuda": "12.1",
+  "gpu": "NVIDIA GeForce RTX 4090"
+}

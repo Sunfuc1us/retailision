@@ -1,0 +1,43 @@
+INFO:     Started server process [63856]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8020 (Press CTRL+C to quit)
+INFO:     127.0.0.1:38554 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38554 - "GET /assets/index-BuiW5fs8.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38564 - "GET /assets/index-CeZTbIHB.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38554 - "GET /api/catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38568 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38564 - "GET /api/models HTTP/1.1" 200 OK
+2026-11-10 12:11:45,246 INFO faiss.loader Loading faiss with AVX2 support.
+2026-11-10 12:11:45,247 INFO faiss.loader Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-11-10 12:11:45,247 INFO faiss.loader Loading faiss.
+2026-11-10 12:11:45,261 INFO faiss.loader Successfully loaded faiss.
+/home/gzh/rocco/demoroom/retailvision/third_party/dinov2/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/home/gzh/rocco/demoroom/retailvision/third_party/dinov2/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/home/gzh/rocco/demoroom/retailvision/third_party/dinov2/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+2026-11-10 12:11:48,160 INFO dinov2 using MLP layer as FFN
+/home/gzh/miniconda3/envs/retailvision-seg/lib/python3.10/site-packages/torch/_utils.py:831: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.  To access UntypedStorage directly, use tensor.untyped_storage() instead of tensor.storage()
+  return self.fget.__get__(instance, owner)()
+/home/gzh/miniconda3/envs/retailvision-seg/lib/python3.10/site-packages/torch/functional.py:504: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at ../aten/src/ATen/native/TensorShape.cpp:3526.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+Loads checkpoint by local backend from path: models/segmentation/rtmdet_ins_s_coco_v001/model.pth
+INFO:     127.0.0.1:38564 - "POST /api/inference/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38564 - "GET /api/results/b709f0f4a4dd4c3eaa12faf095182272/mask_001.png HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42898 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42898 - "GET /assets/index-BuiW5fs8.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42900 - "GET /assets/index-CeZTbIHB.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42898 - "GET /api/catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42906 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42900 - "GET /api/models HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42900 - "POST /api/inference/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42900 - "GET /api/results/5225479bcdad466bbb3283fa0defcfc7/mask_001.png HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [63856]
+已终止
+ERROR conda.cli.main_run:execute(148): `conda run uvicorn backend.api.app:app --host 127.0.0.1 --port 8020` failed. (See above for error)

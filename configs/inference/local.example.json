@@ -1,0 +1,17 @@
+{
+  "segmentation": {
+    "config": "models/segmentation/retail_v001/config.py",
+    "checkpoint": "models/segmentation/retail_v001/model.pth"
+  },
+  "recognition": {
+    "source": "third_party/dinov2",
+    "checkpoint": "models/recognition/dinov2_b14_v001/model.pth",
+    "projection": null
+  },
+  "gallery": "datasets/gallery_v001",
+  "catalog": "catalog/skus.json",
+  "calibration": "datasets/calibration_v001.json",
+  "gallery_version": "gallery_v001",
+  "model_version": "dinov2_b14_v001",
+  "results": "results"
+}

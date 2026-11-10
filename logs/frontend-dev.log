@@ -1,0 +1,18 @@
+
+> retailvision-workbench@0.1.0 dev
+> vite --host 0.0.0.0
+
+
+  VITE v6.4.6  ready in 126 ms
+
+  ➜  Local:   http://localhost:5178/
+  ➜  Network: http://192.168.16.71:5178/
+  ➜  Network: http://100.69.255.87:5178/
+  ➜  Network: http://172.17.0.1:5178/
+  ➜  Network: http://172.18.0.1:5178/
+  ➜  Network: http://198.18.0.1:5178/
+
+warn - No utility classes were detected in your source files. If this is unexpected, double-check the `content` option in your Tailwind CSS configuration.
+warn - https://tailwindcss.com/docs/content-configuration
+12:06:36 PM [vite] (client) hmr update /src/pages/Workbench.tsx, /src/styles.css
+12:10:44 PM [vite] (client) hmr update /src/pages/Workbench.tsx, /src/styles.css

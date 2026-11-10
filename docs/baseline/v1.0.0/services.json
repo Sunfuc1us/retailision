@@ -1,0 +1,55 @@
+{
+  "health": {
+    "8018": {
+      "status": "ok",
+      "product": "RetailVision",
+      "runtime_loaded": false,
+      "configured": false,
+      "fixture": false
+    },
+    "8020": {
+      "status": "ok",
+      "product": "RetailVision",
+      "runtime_loaded": true,
+      "configured": true,
+      "fixture": true
+    },
+    "5178": {
+      "status": "ok",
+      "product": "RetailVision",
+      "runtime_loaded": false,
+      "configured": false,
+      "fixture": false
+    }
+  },
+  "services": [
+    {
+      "pid": 164697,
+      "cwd": "/home/gzh/rocco/retailvision",
+      "executable": "/home/gzh/miniconda3/envs/retailvision-seg/bin/python3.10",
+      "args": [
+        "/home/gzh/miniconda3/envs/retailvision-seg/bin/python",
+        "/home/gzh/miniconda3/envs/retailvision-seg/bin/uvicorn",
+        "backend.api.app:app",
+        "--host",
+        "127.0.0.1",
+        "--port",
+        "8018"
+      ]
+    },
+    {
+      "pid": 164776,
+      "cwd": "/home/gzh/rocco/retailvision",
+      "executable": "/home/gzh/miniconda3/envs/retailvision-seg/bin/python3.10",
+      "args": [
+        "/home/gzh/miniconda3/envs/retailvision-seg/bin/python",
+        "/home/gzh/miniconda3/envs/retailvision-seg/bin/uvicorn",
+        "backend.api.app:app",
+        "--host",
+        "127.0.0.1",
+        "--port",
+        "8020"
+      ]
+    }
+  ]
+}

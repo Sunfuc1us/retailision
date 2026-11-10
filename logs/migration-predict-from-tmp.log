@@ -1,0 +1,315 @@
+/home/gzh/rocco/retailvision/third_party/dinov2/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/home/gzh/rocco/retailvision/third_party/dinov2/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/home/gzh/rocco/retailvision/third_party/dinov2/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+/home/gzh/miniconda3/envs/retailvision-seg/lib/python3.10/site-packages/torch/_utils.py:831: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.  To access UntypedStorage directly, use tensor.untyped_storage() instead of tensor.storage()
+  return self.fget.__get__(instance, owner)()
+/home/gzh/miniconda3/envs/retailvision-seg/lib/python3.10/site-packages/torch/functional.py:504: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at ../aten/src/ATen/native/TensorShape.cpp:3526.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+Loads checkpoint by local backend from path: /home/gzh/rocco/retailvision/models/segmentation/rtmdet_ins_s_coco_v001/model.pth
+{
+  "success": true,
+  "target_found": true,
+  "sku_id": "FIXTURE_INSTANCE",
+  "identity_score": 1.0000001192092896,
+  "instances": [
+    {
+      "instance_id": 1,
+      "sku_id": "FIXTURE_INSTANCE",
+      "identity_score": 1.0000001192092896,
+      "bbox": [
+        220.9437255859375,
+        175.921142578125,
+        456.3254089355469,
+        384.14849853515625
+      ],
+      "detection_score": 0.9450262784957886,
+      "accepted": true,
+      "mask_path": "/api/results/353a8d32ad8346239d86d9c23881d827/mask_001.png"
+    }
+  ],
+  "candidates": [
+    {
+      "instance_id": 1,
+      "sku_id": "FIXTURE_INSTANCE",
+      "identity_score": 1.0000001192092896,
+      "bbox": [
+        220.9437255859375,
+        175.921142578125,
+        456.3254089355469,
+        384.14849853515625
+      ],
+      "detection_score": 0.9450262784957886,
+      "accepted": true,
+      "mask_path": "/api/results/353a8d32ad8346239d86d9c23881d827/mask_001.png"
+    },
+    {
+      "instance_id": 2,
+      "sku_id": null,
+      "identity_score": 0.023508798331022263,
+      "bbox": [
+        192.45108032226562,
+        110.61261749267578,
+        300.7816162109375,
+        155.5273895263672
+      ],
+      "detection_score": 0.8936709761619568,
+      "accepted": false
+    },
+    {
+      "instance_id": 3,
+      "sku_id": null,
+      "identity_score": 0.026316246017813683,
+      "bbox": [
+        296.2847900390625,
+        117.32167053222656,
+        378.6162414550781,
+        150.65298461914062
+      ],
+      "detection_score": 0.882692277431488,
+      "accepted": false
+    },
+    {
+      "instance_id": 4,
+      "sku_id": null,
+      "identity_score": 0.05966206267476082,
+      "bbox": [
+        429.5104675292969,
+        105.75072479248047,
+        485.1845397949219,
+        132.80667114257812
+      ],
+      "detection_score": 0.8025116920471191,
+      "accepted": false
+    },
+    {
+      "instance_id": 5,
+      "sku_id": null,
+      "identity_score": 0.058731600642204285,
+      "bbox": [
+        480.296630859375,
+        110.96114349365234,
+        523.004638671875,
+        130.6210174560547
+      ],
+      "detection_score": 0.7716711163520813,
+      "accepted": false
+    },
+    {
+      "instance_id": 6,
+      "sku_id": null,
+      "identity_score": 0.05150150880217552,
+      "bbox": [
+        0.0,
+        112.78732299804688,
+        62.52210998535156,
+        145.67233276367188
+      ],
+      "detection_score": 0.6959713101387024,
+      "accepted": false
+    },
+    {
+      "instance_id": 7,
+      "sku_id": null,
+      "identity_score": 9.673088788986206e-05,
+      "bbox": [
+        608.5902099609375,
+        110.22833251953125,
+        638.2965087890625,
+        138.5001983642578
+      ],
+      "detection_score": 0.676979660987854,
+      "accepted": false
+    },
+    {
+      "instance_id": 8,
+      "sku_id": null,
+      "identity_score": 0.07914450019598007,
+      "bbox": [
+        268.5828857421875,
+        105.60267639160156,
+        328.2547912597656,
+        127.72309875488281
+      ],
+      "detection_score": 0.6732161045074463,
+      "accepted": false
+    },
+    {
+      "instance_id": 9,
+      "sku_id": null,
+      "identity_score": 0.07274211943149567,
+      "bbox": [
+        398.2705993652344,
+        112.12194061279297,
+        433.1087341308594,
+        133.5576171875
+      ],
+      "detection_score": 0.6680698394775391,
+      "accepted": false
+    },
+    {
+      "instance_id": 10,
+      "sku_id": null,
+      "identity_score": 0.07419946789741516,
+      "bbox": [
+        168.2076873779297,
+        109.35198974609375,
+        212.211669921875,
+        140.7593536376953
+      ],
+      "detection_score": 0.663033664226532,
+      "accepted": false
+    },
+    {
+      "instance_id": 11,
+      "sku_id": null,
+      "identity_score": 0.08713763952255249,
+      "bbox": [
+        590.9755859375,
+        110.97757720947266,
+        618.31396484375,
+        126.82208251953125
+      ],
+      "detection_score": 0.5938321352005005,
+      "accepted": false
+    },
+    {
+      "instance_id": 12,
+      "sku_id": null,
+      "identity_score": 0.3966602087020874,
+      "bbox": [
+        372.30291748046875,
+        133.7281494140625,
+        432.55657958984375,
+        188.75193786621094
+      ],
+      "detection_score": 0.552385151386261,
+      "accepted": false
+    },
+    {
+      "instance_id": 13,
+      "sku_id": null,
+      "identity_score": 0.07063943147659302,
+      "bbox": [
+        82.23475646972656,
+        88.89363098144531,
+        118.21196746826172,
+        101.65665435791016
+      ],
+      "detection_score": 0.4884408414363861,
+      "accepted": false
+    },
+    {
+      "instance_id": 14,
+      "sku_id": null,
+      "identity_score": 0.08770738542079926,
+      "bbox": [
+        61.8861083984375,
+        92.5943832397461,
+        83.04682922363281,
+        105.94087982177734
+      ],
+      "detection_score": 0.48671042919158936,
+      "accepted": false
+    },
+    {
+      "instance_id": 15,
+      "sku_id": null,
+      "identity_score": 0.06770948320627213,
+      "bbox": [
+        571.5848999023438,
+        112.5962905883789,
+        591.8802490234375,
+        127.39134216308594
+      ],
+      "detection_score": 0.45022448897361755,
+      "accepted": false
+    },
+    {
+      "instance_id": 16,
+      "sku_id": null,
+      "identity_score": 0.006888760253787041,
+      "bbox": [
+        134.98648071289062,
+        92.86241912841797,
+        163.35641479492188,
+        106.18982696533203
+      ],
+      "detection_score": 0.4212169349193573,
+      "accepted": false
+    },
+    {
+      "instance_id": 17,
+      "sku_id": null,
+      "identity_score": 0.35064902901649475,
+      "bbox": [
+        372.3039245605469,
+        132.9702911376953,
+        432.4818115234375,
+        189.4657440185547
+      ],
+      "detection_score": 0.4208100736141205,
+      "accepted": false
+    },
+    {
+      "instance_id": 18,
+      "sku_id": null,
+      "identity_score": 0.05294749140739441,
+      "bbox": [
+        168.36776733398438,
+        96.44526672363281,
+        182.36178588867188,
+        106.64307403564453
+      ],
+      "detection_score": 0.41365769505500793,
+      "accepted": false
+    },
+    {
+      "instance_id": 19,
+      "sku_id": null,
+      "identity_score": 0.0449894554913044,
+      "bbox": [
+        552.8447265625,
+        113.31766510009766,
+        589.0643310546875,
+        128.30235290527344
+      ],
+      "detection_score": 0.3987726867198944,
+      "accepted": false
+    },
+    {
+      "instance_id": 20,
+      "sku_id": null,
+      "identity_score": 0.08162551373243332,
+      "bbox": [
+        140.83445739746094,
+        95.45033264160156,
+        168.1762237548828,
+        106.76007080078125
+      ],
+      "detection_score": 0.37935662269592285,
+      "accepted": false
+    },
+    {
+      "instance_id": 21,
+      "sku_id": null,
+      "identity_score": 0.04387632757425308,
+      "bbox": [
+        221.55026245117188,
+        98.1090316772461,
+        244.79824829101562,
+        109.58211517333984
+      ],
+      "detection_score": 0.346757709980011,
+      "accepted": false
+    }
+  ],
+  "result_id": "353a8d32ad8346239d86d9c23881d827",
+  "timing": {
+    "segmentation_ms": 356.6738939998686,
+    "recognition_ms": 280.7357420006156,
+    "total_ms": 637.4096360004842
+  }
+}

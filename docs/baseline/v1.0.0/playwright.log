@@ -1,0 +1,8 @@
+
+Running 4 tests using 1 worker
+
+[1/4] migration-interactions.spec.ts:2:1 › migration: real boxes, opacity, PNG/JSON export and unknown target
+[2/4] real-inference.spec.ts:2:1 › real local GPU adapters through workbench; COCO self-reference fixture
+[3/4] workbench.spec.ts:2:1 › fixture: upload, target, API request, mask modes and export
+[4/4] workbench.spec.ts:11:1 › real API unconfigured error
+  4 passed (9.3s)

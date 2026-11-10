@@ -1,0 +1,42 @@
+{
+  "executable": "/home/gzh/miniconda3/envs/retailvision-reid/bin/python",
+  "project_root": "/home/gzh/rocco/retailvision",
+  "user_site": false,
+  "sys_path": [
+    "/home/gzh/rocco/retailvision/third_party/dinov2",
+    "/tmp",
+    "/home/gzh/miniconda3/envs/retailvision-reid/lib/python310.zip",
+    "/home/gzh/miniconda3/envs/retailvision-reid/lib/python3.10",
+    "/home/gzh/miniconda3/envs/retailvision-reid/lib/python3.10/lib-dynload",
+    "/home/gzh/miniconda3/envs/retailvision-reid/lib/python3.10/site-packages",
+    "__editable__.retailvision-1.0.0.finder.__path_hook__"
+  ],
+  "packages": {
+    "retailvision": {
+      "version": "1.0.0",
+      "direct_url": "{\"dir_info\": {\"editable\": true}, \"url\": \"file:///home/gzh/rocco/retailvision\"}"
+    },
+    "torch": {
+      "version": "2.1.2+cu121",
+      "direct_url": null
+    },
+    "torchvision": {
+      "version": "0.16.2+cu121",
+      "direct_url": null
+    },
+    "faiss-cpu": {
+      "version": "1.15.1",
+      "direct_url": null
+    },
+    "mmcv": null,
+    "mmengine": null,
+    "mmdet": null
+  },
+  "cuda": "12.1",
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "offline_dino_inference": {
+    "device": "cuda:0",
+    "embedding_dim": 768,
+    "norm": 0.9999999403953552
+  }
+}

@@ -1,0 +1,36 @@
+2026-11-10 12:08:15,459 INFO faiss.loader Loading faiss with AVX2 support.
+2026-11-10 12:08:15,459 INFO faiss.loader Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-11-10 12:08:15,459 INFO faiss.loader Loading faiss.
+2026-11-10 12:08:15,519 INFO faiss.loader Successfully loaded faiss.
+2026-11-10 12:08:16,026 INFO dinov2 using MLP layer as FFN
+2026-11-10 12:08:35,384 INFO faiss.loader Loading faiss with AVX2 support.
+2026-11-10 12:08:35,384 INFO faiss.loader Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-11-10 12:08:35,384 INFO faiss.loader Loading faiss.
+2026-11-10 12:08:35,440 INFO faiss.loader Successfully loaded faiss.
+2026-11-10 12:08:35,893 INFO dinov2 using MLP layer as FFN
+2026-11-10 12:08:57,889 INFO faiss.loader Loading faiss with AVX2 support.
+2026-11-10 12:08:57,889 INFO faiss.loader Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-11-10 12:08:57,889 INFO faiss.loader Loading faiss.
+2026-11-10 12:08:57,943 INFO faiss.loader Successfully loaded faiss.
+2026-11-10 12:08:58,397 INFO dinov2 using MLP layer as FFN
+2026-11-10 12:12:29,819 INFO faiss.loader Loading faiss with AVX2 support.
+2026-11-10 12:12:29,819 INFO faiss.loader Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-11-10 12:12:29,819 INFO faiss.loader Loading faiss.
+2026-11-10 12:12:29,885 INFO faiss.loader Successfully loaded faiss.
+2026-11-10 12:12:30,273 INFO dinov2 using MLP layer as FFN
+2026-11-10 12:12:59,279 INFO faiss.loader Loading faiss with AVX2 support.
+2026-11-10 12:12:59,279 INFO faiss.loader Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-11-10 12:12:59,279 INFO faiss.loader Loading faiss.
+2026-11-10 12:12:59,335 INFO faiss.loader Successfully loaded faiss.
+2026-11-10 12:12:59,727 INFO dinov2 using MLP layer as FFN
+2026-11-10 12:14:25,776 INFO faiss.loader Loading faiss with AVX2 support.
+2026-11-10 12:14:25,776 INFO faiss.loader Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-11-10 12:14:25,776 INFO faiss.loader Loading faiss.
+2026-11-10 12:14:25,830 INFO faiss.loader Successfully loaded faiss.
+2026-11-10 12:14:26,211 INFO dinov2 using MLP layer as FFN

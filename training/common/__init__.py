@@ -1,0 +1,1 @@
+"""RetailVision training common module."""

@@ -1,0 +1,13 @@
+
+> retailvision-workbench@0.1.0 build
+> tsc -b && vite build
+
+vite v6.4.6 building for production...
+transforming...
+✓ 1579 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.34 kB │ gzip:  0.26 kB
+dist/assets/index-CeZTbIHB.css    7.80 kB │ gzip:  2.40 kB
+dist/assets/index-BuiW5fs8.js   152.33 kB │ gzip: 49.46 kB
+✓ built in 1.58s

@@ -1,0 +1,8 @@
+
+Running 3 tests using 2 workers
+
+  ✓  2 workbench.spec.ts:2:1 › fixture: upload, target, API request, mask modes and export (594ms)
+  ✓  3 workbench.spec.ts:11:1 › real API unconfigured error (278ms)
+  ✓  1 real-inference.spec.ts:2:1 › real local GPU adapters through workbench; COCO self-reference fixture (1.7s)
+
+  3 passed (2.2s)

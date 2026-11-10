@@ -1,0 +1,94 @@
+[
+  {
+    "path": "frontend/node_modules/.bin/resolve",
+    "target": "../resolve/bin/resolve"
+  },
+  {
+    "path": "frontend/node_modules/.bin/baseline-browser-mapping",
+    "target": "../baseline-browser-mapping/dist/cli.cjs"
+  },
+  {
+    "path": "frontend/node_modules/.bin/update-browserslist-db",
+    "target": "../update-browserslist-db/cli.js"
+  },
+  {
+    "path": "frontend/node_modules/.bin/tailwindcss",
+    "target": "../tailwindcss/lib/cli.js"
+  },
+  {
+    "path": "frontend/node_modules/.bin/jsesc",
+    "target": "../jsesc/bin/jsesc"
+  },
+  {
+    "path": "frontend/node_modules/.bin/browserslist",
+    "target": "../browserslist/cli.js"
+  },
+  {
+    "path": "frontend/node_modules/.bin/semver",
+    "target": "../semver/bin/semver.js"
+  },
+  {
+    "path": "frontend/node_modules/.bin/jiti",
+    "target": "../jiti/bin/jiti.js"
+  },
+  {
+    "path": "frontend/node_modules/.bin/vite",
+    "target": "../vite/bin/vite.js"
+  },
+  {
+    "path": "frontend/node_modules/.bin/tsc",
+    "target": "../typescript/bin/tsc"
+  },
+  {
+    "path": "frontend/node_modules/.bin/autoprefixer",
+    "target": "../autoprefixer/bin/autoprefixer"
+  },
+  {
+    "path": "frontend/node_modules/.bin/tailwind",
+    "target": "../tailwindcss/lib/cli.js"
+  },
+  {
+    "path": "frontend/node_modules/.bin/sucrase-node",
+    "target": "../sucrase/bin/sucrase-node"
+  },
+  {
+    "path": "frontend/node_modules/.bin/esbuild",
+    "target": "../esbuild/bin/esbuild"
+  },
+  {
+    "path": "frontend/node_modules/.bin/sucrase",
+    "target": "../sucrase/bin/sucrase"
+  },
+  {
+    "path": "frontend/node_modules/.bin/json5",
+    "target": "../json5/lib/cli.js"
+  },
+  {
+    "path": "frontend/node_modules/.bin/loose-envify",
+    "target": "../loose-envify/cli.js"
+  },
+  {
+    "path": "frontend/node_modules/.bin/rollup",
+    "target": "../rollup/dist/bin/rollup"
+  },
+  {
+    "path": "frontend/node_modules/.bin/playwright",
+    "target": "../@playwright/test/cli.js"
+  },
+  {
+    "path": "frontend/node_modules/.bin/playwright-core",
+    "target": "../playwright-core/cli.js"
+  },
+  {
+    "path": "frontend/node_modules/.bin/nanoid",
+    "target": "../nanoid/bin/nanoid.cjs"
+  },
+  {
+    "path": "frontend/node_modules/.bin/parser",
+    "target": "../@babel/parser/bin/babel-parser.js"
+  },
+  {
+    "path": "frontend/node_modules/.bin/tsserver",
+    "target": "../typescript/bin/tsserver"
+  }
+]
