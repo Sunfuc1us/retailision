@@ -1,0 +1,22 @@
+{
+  "experiment": "retailvision_e2e_smoke_v001",
+  "fixture": true,
+  "scope": "real 3-image overfit engineering experiment; not synthetic input, not accuracy",
+  "segmentation": {
+    "config": "work_dirs/experiments/retailvision_e2e_smoke_v001/inference_rtmdet_config.py",
+    "checkpoint": "work_dirs/experiments/retailvision_e2e_smoke_v001/training/iter_120.pth"
+  },
+  "recognition": {
+    "source": "third_party/dinov2",
+    "checkpoint": "models/recognition/dinov2_b14_v001/model.pth"
+  },
+  "gallery": "work_dirs/experiments/retailvision_e2e_smoke_v001/gallery",
+  "catalog": "work_dirs/experiments/retailvision_e2e_smoke_v001/gallery/catalog.json",
+  "calibration": "work_dirs/experiments/retailvision_e2e_smoke_v001/smoke_policy.json",
+  "gallery_version": "retailvision_e2e_smoke_v001_temporary",
+  "model_version": "dinov2_b14_v001",
+  "results": "results",
+  "roi": {
+    "clip_mask_to_bbox": true
+  }
+}

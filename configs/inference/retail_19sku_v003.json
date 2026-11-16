@@ -1,0 +1,24 @@
+{
+  "experiment": "retail_19sku_v003",
+  "version": "v0.3",
+  "fixture": false,
+  "scope": "Real 19-SKU supervised training; same-scene image holdout validation; provisional uncalibrated rejection policy",
+  "segmentation": {
+    "config": "models/segmentation/retail_19sku_v003/inference_config.py",
+    "checkpoint": "models/segmentation/retail_19sku_v003/model.pth"
+  },
+  "recognition": {
+    "source": "third_party/dinov2",
+    "checkpoint": "models/recognition/dinov2_b14_v001/model.pth",
+    "projection": "models/recognition/dinov2_b14_19sku_v003/model.pth"
+  },
+  "gallery": "datasets/gallery_19sku_dino_v003",
+  "catalog": "datasets/gallery_19sku_dino_v003/catalog.json",
+  "calibration": "configs/inference/retail_19sku_v003_policy.json",
+  "gallery_version": "gallery_19sku_dino_v003",
+  "model_version": "dinov2_b14_19sku_v003",
+  "results": "results",
+  "roi": {
+    "clip_mask_to_bbox": true
+  }
+}

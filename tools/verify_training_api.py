@@ -2,7 +2,7 @@
 import _bootstrap
 import json,time
 from fastapi.testclient import TestClient
-from backend.api.app import app,jobs
+from retailvision.api.app import app,jobs
 with TestClient(app) as client:
     body=dict(task='recognition',model='dinov2-vitb14',config='configs/recognition/fixture_smoke.py',dataset='datasets/fixture_v001/recognition')
     start=time.perf_counter();response=client.post('/api/training/start',json=body);elapsed=time.perf_counter()-start

@@ -1,1 +1,0 @@
-"""RetailVision backend api module."""

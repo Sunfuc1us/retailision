@@ -1,0 +1,23 @@
+{
+  "experiment": "retail_6sku_v002",
+  "version": "v0.2",
+  "fixture": true,
+  "scope": "Real 15-image training experiment; train-set checks only, no independent accuracy claim",
+  "segmentation": {
+    "config": "models/segmentation/retail_6sku_v002/config.py",
+    "checkpoint": "models/segmentation/retail_6sku_v002/model.pth"
+  },
+  "recognition": {
+    "source": "third_party/dinov2",
+    "checkpoint": "models/recognition/dinov2_b14_v001/model.pth"
+  },
+  "gallery": "datasets/retail_6sku_v002/gallery",
+  "catalog": "datasets/retail_6sku_v002/gallery/catalog.json",
+  "calibration": "configs/inference/retail_6sku_v002_policy.json",
+  "gallery_version": "retail_6sku_v002",
+  "model_version": "dinov2_b14_v001",
+  "results": "results",
+  "roi": {
+    "clip_mask_to_bbox": true
+  }
+}

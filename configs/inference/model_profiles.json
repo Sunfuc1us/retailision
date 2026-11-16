@@ -1,0 +1,27 @@
+[
+  {
+    "id": "retail_19sku_v003",
+    "name": "RetailVision v0.3 · 19 SKU",
+    "config": "configs/inference/retail_19sku_v003.json"
+  },
+  {
+    "id": "retailtest_smoke_v001",
+    "name": "RetailTest · 3图训练",
+    "config": "configs/inference/retailtest_smoke_v001.json"
+  },
+  {
+    "id": "retail_6sku_v002",
+    "name": "RetailVision v0.2 · 6 SKU",
+    "config": "configs/inference/retail_6sku_v002.json"
+  },
+  {
+    "id": "coco_pretrained",
+    "name": "RTMDet-Ins-s · COCO预训练",
+    "config": "configs/inference/deployment.fixture.json"
+  },
+  {
+    "id": "retail_29sku_v004",
+    "name": "RetailVision v0.4 · 29 SKU",
+    "config": "/home/gzh/rocco/retailvision/configs/inference/retail_29sku_v004.json"
+  }
+]

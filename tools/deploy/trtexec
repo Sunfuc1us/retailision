@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+set -euo pipefail
+SCRIPT="$(readlink -f "${BASH_SOURCE[0]}")"
+ROOT="$(cd "$(dirname "${SCRIPT}")/../.." && pwd)"
+IMAGE="${RETAILVISION_TRT_CONTAINER:-nvcr.io/nvidia/tensorrt:24.05-py3}"
+exec docker run --rm --pull=never --gpus all --ipc=host -v "${ROOT}:/workspace" -w /workspace "$IMAGE" /usr/src/tensorrt/bin/trtexec "$@"

@@ -1,1 +1,0 @@
-"""RetailVision training segmentation module."""

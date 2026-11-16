@@ -1,0 +1,26 @@
+{
+  "similarity": 0.72,
+  "margin": 0.005,
+  "dataset_version": "07300b59a04ee367507000faad2d1226f01f0d40546e3458d609aa78c5d5f2ea",
+  "gallery_version": "retail_6sku_v002",
+  "model_version": "dinov2_b14_v001",
+  "calibrated": false,
+  "production_eligible": false,
+  "scope": "Provisional rejection thresholds tuned on mixed-shelf feedback and historical photos. Lemon-tea threshold addresses an observed medicine-box false match; margin retains reviewed Coke examples. Not independently calibrated; no production FAR claim.",
+  "selection_data": [
+    "work_dirs/retail_6sku_v002_fix/feedback_labels.json",
+    "work_dirs/retail_6sku_v002_fix/historical_threshold_review.json"
+  ],
+  "selection_summary": {
+    "known_count": 5,
+    "unknown_count": 18,
+    "min_known_similarity": 0.7596551179885864,
+    "max_unknown_similarity": 0.664886474609375,
+    "min_known_margin": 0.012041091918945312,
+    "historical_known_min_margin": 0.007500827312469482,
+    "historical_medicine_lemon_similarity": 0.7677270770072937
+  },
+  "sku_similarity": {
+    "VITA_YASHIXIANG_LEMON_TEA_250ML": 0.8
+  }
+}

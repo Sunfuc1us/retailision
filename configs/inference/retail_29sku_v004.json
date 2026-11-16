@@ -1,0 +1,22 @@
+{
+  "experiment": "retail_29sku_v004",
+  "fixture": false,
+  "segmentation": {
+    "config": "/home/gzh/rocco/retailvision/models/segmentation/retail_29sku_v004/inference_config.py",
+    "checkpoint": "/home/gzh/rocco/retailvision/models/segmentation/retail_29sku_v004/model.pth"
+  },
+  "recognition": {
+    "source": "third_party/dinov2",
+    "checkpoint": "models/recognition/dinov2_b14_v001/model.pth",
+    "projection": "/home/gzh/rocco/retailvision/models/recognition/retail_29sku_v004/model.pth"
+  },
+  "gallery": "/home/gzh/rocco/retailvision/datasets/gallery_retail_29sku_v004",
+  "catalog": "/home/gzh/rocco/retailvision/datasets/gallery_retail_29sku_v004/catalog.json",
+  "calibration": "/home/gzh/rocco/retailvision/configs/inference/retail_29sku_v004_policy.json",
+  "gallery_version": "gallery_retail_29sku_v004",
+  "model_version": "retail_29sku_v004",
+  "results": "results",
+  "roi": {
+    "clip_mask_to_bbox": true
+  }
+}

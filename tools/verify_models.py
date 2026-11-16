@@ -1,13 +1,13 @@
 import _bootstrap
-import json,socket
+import json,socket,os
 from pathlib import Path
 from time import perf_counter
 import numpy as np
 import torch
 from PIL import Image
-from inference.segmentation.rtmdet import RTMDet
-from inference.recognition.dino import DINOv2
-from inference.retrieval.gallery import Gallery
+from retailvision.inference.rtmdet import RTMDet
+from retailvision.inference.dino import DINOv2
+from retailvision.inference.gallery import Gallery
 # Deliberately disable Python networking to verify local-only loading.
 def no_network(*a,**kw):raise RuntimeError('network prohibited during offline verification')
 socket.socket.connect=no_network
@@ -24,10 +24,10 @@ g=Gallery();g.build_index(np.stack([e,-e]),['FIXTURE_SAME_IMAGE','FIXTURE_NEGATI
 out=Path('results/model_verification');out.mkdir(parents=True,exist_ok=True)
 Image.fromarray(instances[0].mask.astype('uint8')*255).save(out/'mask.png')
 # Real adapter composition on same-image references: integration only, never retail accuracy.
-from dataset.processors.roi import mask_crop
-from inference.pipeline import VisionPipeline
-from inference.retrieval.rejection import RejectionPolicy,calibrate
-from catalog.store import Catalog
+from retailvision.image_ops import mask_crop
+from retailvision.inference.pipeline import VisionPipeline
+from retailvision.inference.rejection import RejectionPolicy,calibrate
+from retailvision.data.catalog import Catalog
 ref=rec.extract_embedding(mask_crop(im,instances[0].mask))
 gallery=Gallery();gallery.build_index(np.stack([ref,-ref]),['FIXTURE_INSTANCE','FIXTURE_NEGATIVE'])
 (out/'catalog.json').write_text(json.dumps([dict(sku_id='FIXTURE_INSTANCE',product='COCO instance fixture'),dict(sku_id='FIXTURE_NEGATIVE',product='negative vector fixture')]))
@@ -46,7 +46,10 @@ assert not policy.accepts(unknown)
 # Exercise the real resident adapters through the actual FastAPI endpoint.
 import io,importlib
 from fastapi.testclient import TestClient
-api=importlib.import_module('backend.api.app');api.runtime=pipe
+api=importlib.import_module('retailvision.api.app');api.runtime.pipe=pipe
+config_path=str(Path('configs/inference/fixture.local.json').resolve())
+os.environ['RETAILVISION_CONFIG']=config_path
+api.runtime.key=(config_path,'pytorch')
 buffer=io.BytesIO();im.save(buffer,format='PNG')
 with TestClient(api.app) as client:
     response=client.post('/api/inference/predict',files={'image':('fixture.png',buffer.getvalue(),'image/png')},data={'target_product':'FIXTURE_INSTANCE'})

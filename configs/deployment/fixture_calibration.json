@@ -1,0 +1,9 @@
+{
+  "fixture": true,
+  "similarity": 0.9,
+  "margin": 0.1,
+  "dataset_version": "fixture_self_reference",
+  "gallery_version": "fixture",
+  "model_version": "fixture",
+  "scope": "Engineering self-reference fixture thresholds; not retail validation calibration"
+}

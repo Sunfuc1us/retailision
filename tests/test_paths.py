@@ -1,6 +1,6 @@
-from project_paths import PROJECT_ROOT,project_path
-from inference.recognition.dino import DINOv2
-from inference.segmentation.rtmdet import RTMDet
+from retailvision.paths import PROJECT_ROOT,project_path
+from retailvision.inference.dino import DINOv2
+from retailvision.inference.rtmdet import RTMDet
 
 def test_checkout_paths_from_another_working_directory(tmp_path,monkeypatch):
     monkeypatch.chdir(tmp_path)

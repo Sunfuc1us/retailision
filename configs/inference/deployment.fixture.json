@@ -1,0 +1,29 @@
+{
+  "fixture": true,
+  "segmentation": {
+    "config": "third_party/mmdetection/configs/rtmdet/rtmdet-ins_s_8xb32-300e_coco.py",
+    "checkpoint": "models/segmentation/rtmdet_ins_s_coco_v001/model.pth"
+  },
+  "recognition": {
+    "source": "third_party/dinov2",
+    "checkpoint": "models/recognition/dinov2_b14_v001/model.pth"
+  },
+  "gallery": "results/model_verification/gallery",
+  "catalog": "results/model_verification/catalog.json",
+  "calibration": "configs/deployment/fixture_calibration.json",
+  "gallery_version": "fixture",
+  "model_version": "fixture",
+  "results": "results",
+  "deployment": {
+    "onnxruntime": {
+      "seg_deploy_config": "configs/deployment/rtmdet_ins_onnxruntime_static_640.py",
+      "seg_model": "models/segmentation/rtmdet_ins_s_coco_v001/deployment/onnx/end2end.onnx",
+      "rec_model": "models/recognition/dinov2_b14_v001/deployment/model.onnx"
+    },
+    "tensorrt": {
+      "seg_deploy_config": "configs/deployment/rtmdet_ins_tensorrt_fp16_static_640.py",
+      "seg_model": "models/segmentation/rtmdet_ins_s_coco_v001/deployment/tensorrt/end2end.engine",
+      "rec_model": "models/recognition/dinov2_b14_v001/deployment/model_fp16.engine"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "similarity": 0.8,
+  "margin": 0.01,
+  "dataset_version": "814e69cdb4701c18d98a79609da6e7187dd0f9409e160dbc0f7ebb4f3d2e01bc",
+  "model_version": "retail_29sku_v004",
+  "gallery_version": "gallery_retail_29sku_v004",
+  "calibrated": false,
+  "production_eligible": false,
+  "scope": "Provisional experimental defaults for v0.4; independent known/unknown SKU calibration required. No FAR guarantee."
+}

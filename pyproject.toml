@@ -6,10 +6,8 @@ name = "retailvision"
 version = "1.0.0"
 requires-python = ">=3.10"
 dependencies = ["numpy<2", "Pillow", "pycocotools", "fastapi", "uvicorn", "python-multipart", "faiss-cpu", "shapely", "scikit-learn"]
-[tool.setuptools]
-py-modules = ["project_paths"]
 [tool.setuptools.packages.find]
-include = ["backend*", "dataset*", "inference*", "catalog*", "registry*", "training*", "evaluation*"]
+include = ["retailvision*"]
 [tool.pytest.ini_options]
 pythonpath = ["."]
 testpaths = ["tests"]

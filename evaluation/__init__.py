@@ -1,1 +1,0 @@
-"""RetailVision evaluation module."""

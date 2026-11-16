@@ -1,1 +1,0 @@
-"""RetailVision inference segmentation module."""
